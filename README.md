@@ -30,13 +30,16 @@ Pour une utilisation sans installation, voir la section
 Prérequis : Python 3.11 ou plus récent (testé avec Python 3.12).
 
 ```bash
-# 1. Se placer à la racine du dépôt (le dossier qui contient ce README)
-cd chemin/vers/le-depot
+# 1. Cloner le dépôt (git crée le dossier python-electronique-ia)
+git clone https://github.com/VladdKid/python-electronique-ia.git
 
-# 2. Créer un environnement virtuel
+# 2. Se placer à la racine du dépôt
+cd python-electronique-ia
+
+# 3. Créer un environnement virtuel
 python -m venv .venv
 
-# 3. L'activer
+# 4. L'activer
 # Windows (PowerShell) :
 .venv\Scripts\Activate.ps1
 # Windows (cmd) :
@@ -44,12 +47,15 @@ python -m venv .venv
 # macOS / Linux :
 source .venv/bin/activate
 
-# 4. Installer les dépendances
+# 5. Installer les dépendances
 pip install -r requirements.txt
 
-# 5. Générer les jeux de données (déjà présents, mais reproductibles)
+# 6. Générer les jeux de données (déjà présents, mais reproductibles)
 python scripts/generer_donnees.py
 ```
+
+Si `git` n'est pas installé, utilisez *Code → Download ZIP* sur la page
+GitHub, puis décompressez l'archive et placez-vous dans le dossier obtenu.
 
 > PyTorch est volumineux. Sur une machine sans GPU, la version CPU suffit :
 > `pip install torch --index-url https://download.pytorch.org/whl/cpu`
