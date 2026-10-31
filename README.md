@@ -1,5 +1,8 @@
 # Python pour l'électronique — spécial IA
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/VladdKid/python-electronique-ia/HEAD?labpath=notebooks%2F01_prise_en_main_jupyter.ipynb)
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/01_prise_en_main_jupyter.ipynb)
+
 Cours de Python en 12 notebooks Jupyter conçu pour des étudiants en
 électronique. Chaque notion est illustrée par des tensions, des capteurs, des
 signaux et des composants, puis prolongée vers l'intelligence artificielle :
@@ -19,6 +22,8 @@ d'une explication. Les exercices sont fournis directement dans les notebooks.
   d'anomalies sur des mesures capteurs.
 
 Aucun matériel n'est nécessaire : toutes les mesures et images sont simulées.
+Pour une utilisation sans installation, voir la section
+[Utiliser le cours en ligne](#utiliser-le-cours-en-ligne).
 
 ## Installation
 
@@ -62,6 +67,43 @@ jupyter notebook
 ```
 
 Ouvrez ensuite le dossier `notebooks/` et commencez par `01_...`.
+
+## Utiliser le cours en ligne
+
+Deux options fonctionnent sans rien installer. Les jeux de données sont inclus
+dans le dépôt.
+
+### Binder (recommandé, aucune installation)
+
+Cliquez sur le badge Binder en haut du README, ou ouvrez
+<https://mybinder.org/v2/gh/VladdKid/python-electronique-ia/HEAD>.
+
+Le **premier** lancement construit l'image Docker (5 à 10 minutes, PyTorch CPU
+inclus) ; les suivants sont plus rapides. Binder démarre à la racine du dépôt :
+les chemins `data/...` fonctionnent directement et les 12 notebooks sont
+disponibles dans `notebooks/`. La configuration se trouve dans
+`binder/requirements.txt`.
+
+### Google Colab
+
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/01_prise_en_main_jupyter.ipynb)
+
+Ouvrez le notebook voulu depuis GitHub avec Colab, par exemple
+`https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/06_numpy_signaux.ipynb`.
+
+Exécutez **d'abord la cellule « Utilisation en ligne »** placée au début de
+chaque notebook : dans Colab, elle clone le dépôt public et place le notebook à
+sa racine pour que les données soient accessibles. Sur votre ordinateur, cette
+cellule ne fait rien.
+
+Colab fournit déjà NumPy, pandas, scikit-learn et PyTorch ; les versions
+peuvent différer légèrement de `requirements.txt`, donc les scores affichés
+peuvent varier de quelques dixièmes. Le dossier `models/` et les figures
+produites disparaissent à la fin de la session Colab.
+
+> **JupyterLite** (Jupyter entièrement dans le navigateur, sans serveur) n'est
+> pas compatible avec ce cours : PyTorch n'y est pas disponible, donc les
+> notebooks 11 et 12 ne peuvent pas s'exécuter.
 
 ## Modifier le cours (enseignants)
 
