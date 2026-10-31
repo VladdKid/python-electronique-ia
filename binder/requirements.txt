@@ -1,0 +1,14 @@
+# Dépendances utilisées par Binder (mybinder.org).
+# Binder lit ce fichier en priorité sur requirements.txt à la racine.
+# Torch CPU évite de télécharger les bibliothèques CUDA (image beaucoup plus légère).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+scipy>=1.15
+scikit-learn>=1.6
+joblib>=1.4
+torch==2.5.1+cpu
+
+jupyterlab>=4.2

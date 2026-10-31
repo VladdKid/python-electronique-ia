@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+build/
+dist/
+
+figures/*.png
+models/*.pt
+models/*.joblib
+models/*.json
