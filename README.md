@@ -94,8 +94,27 @@ disponibles dans `notebooks/`. La configuration se trouve dans
 
 [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/01_prise_en_main_jupyter.ipynb)
 
-Ouvrez le notebook voulu depuis GitHub avec Colab, par exemple
-`https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/06_numpy_signaux.ipynb`.
+Ouvrez le notebook voulu depuis GitHub avec Colab, en cliquant sur son lien
+ci-dessous, ou en remplaçant le nom de fichier dans l'adresse générique :
+
+```
+https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/<nom>.ipynb
+```
+
+| # | Notebook | Lien Colab |
+|---|----------|------------|
+| 01 | Prise en main de Jupyter | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/01_prise_en_main_jupyter.ipynb) |
+| 02 | Variables, types et opérateurs | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/02_variables_types_operateurs.ipynb) |
+| 03 | Conditions et boucles | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/03_conditions_boucles.ipynb) |
+| 04 | Fonctions et modules | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/04_fonctions_modules.ipynb) |
+| 05 | Structures de données | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/05_structures_donnees.ipynb) |
+| 06 | NumPy et signaux | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/06_numpy_signaux.ipynb) |
+| 07 | Matplotlib et signaux | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/07_matplotlib_signaux.ipynb) |
+| 08 | Pandas et mesures | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/08_pandas_mesures.ipynb) |
+| 09 | Traitement du signal | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/09_traitement_signal.ipynb) |
+| 10 | Machine learning avec scikit-learn | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/10_machine_learning_sklearn.ipynb) |
+| 11 | Réseaux de neurones | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/11_reseaux_neurones.ipynb) |
+| 12 | Projet final IA | [Ouvrir](https://colab.research.google.com/github/VladdKid/python-electronique-ia/blob/main/notebooks/12_projet_final_ia.ipynb) |
 
 Exécutez **d'abord la cellule « Utilisation en ligne »** placée au début de
 chaque notebook : dans Colab, elle clone le dépôt public et place le notebook à
